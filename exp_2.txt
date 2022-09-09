@@ -1,0 +1,23 @@
+1) larger.java
+2) calculaa.java
+4) passing.java
+
+
+//... eplisilon << String...args
+//1999 java white paper
+
+stdlib, string.h <- string functions
+print stdio.h
+ System.out.print 
+  ^      ^
+  class  attribute
+         object
+
+static- already defined functions
+         
+can have only one public class
+
+Input >>>
+System.out.println(args[0]);
+System.out.println(args[1]);
+System.out.println(args.length);

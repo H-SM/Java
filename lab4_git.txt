@@ -1,0 +1,68 @@
+started with initailizing git in a directory
+-> git init < command to start git in the directory and starts mointoring changes>
+-> git status
+- no commits yet
+<after another file added> untraced file 
+<to add> git add <file nam> or . < for all>
+it goees in staging area...<file's changes are to be committed>
+ready for changes now
+
+if we do changes 
+it will say- 
+    mdified : <filename>
+now lets commit it 
+command - 
+git commit -m "this is first version"
+even after this it says modified
+
+git add . <this makes file to staging area, then do commiting in it, as done above>
+
+after this it display's-
+On branch master
+nothing to commit, working tree clean
+
+-> git log < tell about all the changes done on the file>
+
+if we wanna go to a previous version->
+commit id are UNIQUE < commit hash id's>
+to go to another version ->
+-> git checkout <5-6 words of commit id>
+    this changes to that version.
+
+you are in deattached head < a vivid path>
+you can either name this branch or 
+git switch -
+-> this command takes back to previous path
+now,
+adding multiple files in directory A,B.txt
+
+branch
+there is a HEAD pointer ,  going to status of file 
+right now at HEAD->master)<the main branch>
+to make another branch < another wat to do things>
+https://git-school.github.io/visualizing-git/
+
+git branch <name of branch>
+this makes two pointer HEAD and name of branch 
+we can make multiple branches like this 
+
+if we commit now master continues , other stops < there work havent started>
+
+now to go to another branch->
+git checkout suraj<the name of branch>
+
+this makes header goes to the pointer/user you want
+
+git branch -> shows which branches are present
+git log only shows logs on that particular BRANCH not others 
+
+after work of that BRANCH is done, we can merge them
+git merge master <- to the master branch 
+
+this will show them in log now <<to confirm >>
+
+to do for a vivid path selection 
+git branch -c <branch_name>
+
+to do both step in 1 line-
+git checkout -b <branch name> <hash id>
